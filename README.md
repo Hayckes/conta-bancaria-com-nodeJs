@@ -117,9 +117,7 @@ O código a seguir implementa uma API de contas bancárias usando o framework Ex
   ```
 - **Respostas:**
   - **Código:** 200 (OK)
-    - \*\*Cor
-
-po da resposta:\*\*
+    - \*\*Corpo da resposta:\*\*
 `json
       [
         {
@@ -257,9 +255,7 @@ app.listen(3031);
 
 #### 1. Verificação da Existência da Conta pelo CPF
 
-O middleware `verifyExistsAccountCPF` é responsável por verificar se a conta do cliente existe com base no CPF fornecido nos cabe
-
-çalhos das requisições. Ele também adiciona o objeto do cliente à requisição para uso nos outros endpoints.
+O middleware `verifyExistsAccountCPF` é responsável por verificar se a conta do cliente existe com base no CPF fornecido nos cabeçalhos das requisições. Ele também adiciona o objeto do cliente à requisição para uso nos outros endpoints.
 
 ```javascript
 function verifyExistsAccountCPF(request, response, next) {
