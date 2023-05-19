@@ -117,8 +117,8 @@ O código a seguir implementa uma API de contas bancárias usando o framework Ex
   ```
 - **Respostas:**
   - **Código:** 200 (OK)
-    - \*\*Corpo da resposta:\*\*
-`json
+    - **Corpo da resposta:**
+      ```json
       [
         {
           "description": "string",
@@ -128,7 +128,7 @@ O código a seguir implementa uma API de contas bancárias usando o framework Ex
         },
         ...
       ]
-      `
+      ```
 
 #### 6. Atualização de Informações da Conta
 
